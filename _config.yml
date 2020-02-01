@@ -17,7 +17,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
-  disqus_shortname: siddharth_goel
+  disqus_shortname: siddharthgoel88
   analytics_id: "UA-57187393-1"
 
   # generate social links in footer
