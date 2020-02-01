@@ -18,8 +18,6 @@ plainwhite:
   show_excerpts: true
 
   navigation:
-    - title: Home
-      url: "/"
     - title: PGP Keys
       url: "/pgp-public-key"
     - title: About
