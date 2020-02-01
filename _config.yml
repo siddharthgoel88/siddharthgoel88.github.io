@@ -17,6 +17,9 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
+  disqus_shortname: siddharth_goel
+  analytics_id: "UA-57187393-1"
+
   # generate social links in footer
   social_links:
     twitter: siddharthgoel88
@@ -43,11 +46,6 @@ plainwhite:
     # - username: jekyll2
     #   instance: example.com
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-57187393-1       # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
@@ -60,11 +58,7 @@ remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
   - jekyll-admin
-  - jekyll-analytics
 #  - jekyll-feed
-
-whitelist:
-  - jekyll-analytics
 
 collections:
   - protected
