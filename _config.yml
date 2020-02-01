@@ -63,5 +63,8 @@ plugins:
   - jekyll-analytics
 #  - jekyll-feed
 
+whitelist:
+  - jekyll-analytics
+
 collections:
   - protected
